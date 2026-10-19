@@ -1,4 +1,4 @@
-name: Host-Ship Auto Renew
+name: Host-Ship Auto Renew 1
 
 on:
   workflow_dispatch:
