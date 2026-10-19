@@ -34,7 +34,7 @@ jobs:
 
       - name: Setup optional VLESS/VMess/Trojan node
         env:
-          NODE_LINK: ${{ secrets.NODE_LINK_WISPBYTE }}
+          NODE_LINK: ${{ secrets.NODE_LINK_MC_GB }}
         run: |
           if [ -n "$NODE_LINK" ]; then
             echo "NODE_LINK detected, setting up local proxy..."
